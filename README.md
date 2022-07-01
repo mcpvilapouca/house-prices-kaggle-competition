@@ -19,11 +19,11 @@ The aim is to predict the house prices using the <ins>Ames Housing Dataset</ins>
 - create_models.py
 
 #### Model Selection
-###### Read processed data and relevant features from pickle. Read models from Create_Models.py. Evaluate models (default parameters) using RepeatedKFold. Allowed to choose the two most promising. 
+###### Read processed data and relevant features from pickle. Read models from Create_Models.py. Evaluate models (default parameters) using RepeatedKFold. Allowed to choose the two most promising. Note that since the evaluation is performed between the logarithm of the predicted value and the logarithm of the observed sales price, we trained the model using the logarithm (np.log) of the target values.
 - select_models.ipynb
 
 #### Model Tunning
-###### Read processed data and relevant features from pickle. Split the training set into training (90%) and validation sets (10%). Tune the two best models with RandomizedSearchCV using the splitted training set. Evaluate the tuned models with the validation set. Choose the best one and make predictions on the test set. Create submission file
+###### Read processed data and relevant features from pickle. Split the training set into training (90%) and validation sets (10%). Tune the two best models with RandomizedSearchCV using the splitted training set. Evaluate the tuned models with the validation set. Choose the best one and make predictions on the test set. Transform the predictions back to normal scale (np.exp). Create submission file
 - tune_and_predict.ipynb
 
 ---------------------------------------------------------
