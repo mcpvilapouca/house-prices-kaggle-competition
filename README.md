@@ -11,7 +11,7 @@ The aim is to predict the house prices using the <ins>Ames Housing Dataset</ins>
 - preprocess_data.ipynb
 
 #### Feature Selection
-###### Read processed data from pickle. Select relevant features based on the corrrelation between them and with target. Save relevant features to pickle
+###### Read processed data from pickle. Select relevant features based on the correlation between them and with target. Save relevant features to pickle
 - select_features.ipynb
 
 #### Create Models
