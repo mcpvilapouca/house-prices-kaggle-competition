@@ -5,3 +5,5 @@
 This work was developed for the Kaggle Competition House-Prices Advanced Regression Tecnhiques.
 
 The aim is to predict the house prices using the Ames Housing Dataset. A training and test set are provided.
+
+This version gave me a score of 0.12657 (top 20%)
